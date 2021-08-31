@@ -10,6 +10,20 @@ namespace Day_Single_Sample
     {
         static void Main(string[] args)
         {
+            // SampleCode();
+
+            // Here is a single line comment
+            /* Here are some multi
+             * Line Coments
+             * Use 
+             * Slash & astrics
+             */
+
+            Console.ReadKey();
+        }
+
+        static void SampleCode()
+        {
             Console.WriteLine("Hello World");
             Console.WriteLine("Hello " + "World");
             Console.Write("What is your name");
@@ -18,7 +32,7 @@ namespace Day_Single_Sample
 
             Console.Write("How many hours did you get last night? ");
             int hoursOfSleep = int.Parse(Console.ReadLine());
-            
+
             if (hoursOfSleep >= 8)
             {
                 Console.WriteLine("Good job. Thts allot of sleep!");
@@ -35,7 +49,7 @@ namespace Day_Single_Sample
             {
                 Console.WriteLine("idk what you wrote");
             }
-            Console.ReadKey();
         }
+
     }
 }
